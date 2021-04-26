@@ -7,7 +7,7 @@ function loadDictionary() {
       dictionary = textData.match(/[\w]+/ig);
 
       // Output to console to confirm file load
-      console.log("Dictionary:");
+      console.log("dictionary:");
       console.log(dictionary);
     })
 }
@@ -19,7 +19,7 @@ function loadAliceText() {
       aliceWords = textData.match(/[\w]+/ig);
 
       // Output to console to confirm file load
-      console.log("Alice Full:")
+      console.log("aliceWords:")
       console.log(aliceWords);
     })
 }
